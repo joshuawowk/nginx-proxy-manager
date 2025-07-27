@@ -11,9 +11,9 @@ services:
       - /docker/npm/data:/data
       - /docker/npm/letsencrypt:/etc/letsencrypt
     networks:
-      - npm_network
+      - npm_net
     
 networks:
-  npm_network:
+  npm_net:
     external: true
 
