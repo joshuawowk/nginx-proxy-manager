@@ -10,3 +10,10 @@ services:
     volumes:
       - /docker/npm/data:/data
       - /docker/npm/letsencrypt:/etc/letsencrypt
+    networks:
+      - npm_network
+    
+networks:
+  npm_network:
+    external: true
+
