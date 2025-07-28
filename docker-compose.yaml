@@ -16,4 +16,3 @@ services:
 networks:
   npm_net:
     external: true
-
